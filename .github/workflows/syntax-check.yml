@@ -10,3 +10,6 @@ jobs:
     steps:
     - name: Check out the code
       uses: actions/checkout@v4
+    - name: Python Syntax Checker
+      uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
+  
